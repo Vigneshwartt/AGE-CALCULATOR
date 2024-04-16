@@ -6,14 +6,51 @@
     <title>Age Calculator</title>
     <link rel="stylesheet" href="./assests/css/output.css">
   </head>
-  <body>
-    <h1 class="">Age Calculator</h1>
-    <div class="container">
-      <div class="flex justify-center ">
-        <h4>DAY</h4>
-        <h4>MONTH</h4>
-        <h4>YEAR</h4>
-      </div>
-    </div>
-  </body>
+  <body class="bg-yellow-300">
+     <h1  class="  font-bold ">AGE CALCULATOR</h1>
+    <section class=" ">
+       <div class="bg-white max-w-xs sm:max-w-lg rounded mt-10 mx-auto p-4">
+         <div class="flex items-center justify-between">
+            <h1 class="font-bold text-blue-700">Age Calculator</h1>
+         </div>
+         <form class="mt-4  flex justify-around  items-center">
+           <div>
+             <label for="Days" class="form-label">DAYS</label>
+             <br>
+             <input type="number" id="dd" placeholder=" DD" class="form-input bg-slate-100 w-16"  required>
+           </div>
+           <div>
+            <label for="Months" class="form-label">MONTHS</label>
+            <br>
+            <input type="number" id="mm" placeholder=" MM" class="form-input bg-slate-100 w-16"  required>
+          </div>
+          <div>
+            <label for="Years" class="form-label">YEARS</label>
+            <br>
+            <input type="number" id="yy" placeholder=" YY" class="form-input bg-slate-100 w-16"  required>
+          </div>
+           <!-- <div>
+             <button id="btn" class="py-2 bg-red-500 text-white w-full rounded font-medium ">Calculate</button>
+           </div>-->
+        
+         </form>
+         <div class="flex items-center  justify-end py-5">
+          <button  type="submit"  class="btns bg-slate-500 w-16" id="btn">click</button>
+         </div>
+         <div class="ones">
+         <div id="dayss" class="text-black font-bold ">
+          
+           </div> 
+           <div id="monthss" class="text-black font-bold ">
+          
+           </div> 
+           <div id="yearss" class="text-black font-bold ">
+          
+           </div> 
+          </div>
+   
+         </div>
+       <script src="./assests/css/main.js"></script>
+     </section>
+   </body>
 </html>
